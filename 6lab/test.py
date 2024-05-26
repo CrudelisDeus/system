@@ -1,14 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 t_meas = 5  
 t_start = 0 
 dt = 0.01
 
-
 t = np.arange(t_start, t_meas, dt)
-
 
 amp = 1
 f = 1.0 
